@@ -1,6 +1,12 @@
-# Python program to print positive Numbers in a List
+# Python program to print positive Numbers in List1
   
-list1 = [9, -1, 0, -45, -66, 98,93,101]
+list1 = [12, -7, 5, 64, -14]
+  
+for num in list1:
+    if num >= 0:
+       print(num, end = " ")
+#Python Program to print all positive numbers in list 2       
+list2 = [12,14,-95,3]
   
 for num in list1:
     if num >= 0:
